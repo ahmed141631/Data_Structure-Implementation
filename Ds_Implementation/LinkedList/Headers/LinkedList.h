@@ -12,7 +12,7 @@ public:
     LinkedList(Node* head);
     void prepend(Node* node);
     void append(Node* node);
-    void insert(int key,Node* node);
+    void insertNodeAfter(int key,Node* node);
     void remove(int key);
     
     // utility functions
