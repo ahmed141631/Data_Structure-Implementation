@@ -56,7 +56,7 @@ void LinkedList::prepend(Node* node){
     }
 }
 
-void LinkedList::insert(int key,Node* node){
+void LinkedList::insertNodeAfter(int key,Node* node){
     if(NodeExists(key)!=nullptr){
         cout<<"Node already exists"<<endl;
     }else{
